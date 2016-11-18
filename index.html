@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="exporter-version" content="Evernote Mac 6.8 (453749)"/>
+        <meta name="altitude" content="46.21904373168945"/>
+        <meta name="author" content="qwe852780@vip.qq.com"/>
+        <meta name="created" content="2016-08-02 10:08:06 +0000"/>
+        <meta name="latitude" content="39.94785663699393"/>
+        <meta name="longitude" content="116.4172401452305"/><meta name="source" content="desktop.mac"/><meta name="updated" content="2016-11-17 02:24:59 +0000"/><title>New</title></head><body>
+<div><span style="color: rgb(86, 101, 115);"><strong style="border: 0px; padding: 0px; font-weight: bold; font-style: inherit; font-size: 16px; font-family: inherit; vertical-align: baseline; background-color: transparent; background-position: initial initial; background-repeat: initial initial;"><span style="color: rgb(146, 144, 0);">重点</span>：</strong><span style="font-size: 16px;"><span style="font-family: inherit;">把LNMP搞熟练（核心是安装配置基本操作）</span></span></span></div>
+<div><span style="color: rgb(86, 101, 115);"><strong style="border: 0px; padding: 0px; font-weight: bold; font-style: inherit; font-size: 16px; font-family: inherit; vertical-align: baseline; background-color: transparent; background-position: initial initial; background-repeat: initial initial;"><span style="color: rgb(146, 144, 0);">目标</span>：</strong><span style="font-family: inherit;"><span style="font-size: 16px;">能够完成基本的LNMP系统安装，简单配置维护；能够做基本的简单系统的PHP开发；能够在PHP中型系统中支持某个PHP功能模块的开发。</span></span></span></div>
+<div><span style="color: rgb(86, 101, 115);"><strong style="border: 0px; padding: 0px; font-weight: bold; font-style: inherit; font-size: 16px; font-family: inherit; vertical-align: baseline; background-color: transparent; background-position: initial initial; background-repeat: initial initial;"><span style="color: rgb(146, 144, 0);">时间</span>：</strong><span style="font-family: inherit;"><span style="font-size: 16px;">完成本阶段的时间因人而异，有的成长快半年一年就过了，成长慢的两三年也有。</span></span></span></div>
+<div>
+<div style="border-width: 0px 0px 0px 5px; border-left-style: solid; border-left-color: rgb(238, 238, 238); padding: 15px 20px 1px; font-weight: normal; font-style: normal; font-size: 16px; font-family: 'Open Sans', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', Arial, Verdana, Tahoma, sans-serif; vertical-align: baseline; background-color: transparent; color: rgb(153, 153, 153); font-variant-caps: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-position: initial initial; background-repeat: initial initial;margin-left:40px;">
+<div style="border: 0px; padding: 0px; font-weight: inherit; font-style: inherit; font-size: 16px; font-family: inherit; vertical-align: baseline; background-color: transparent; color: rgb(86, 101, 115); background-position: initial initial; background-repeat: initial initial;"/>
+</div>
+<ol style="border: 0px; padding: 0px; font-weight: normal; font-style: normal; font-size: 16px; font-family: 'Open Sans', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', Arial, Verdana, Tahoma, sans-serif; vertical-align: baseline; background-color: transparent; list-style: decimal; color: rgb(85, 85, 85); font-variant-caps: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-position: initial initial; background-repeat: initial initial;">
+<li style="border: 0px; padding: 0px; font-weight: inherit; font-style: inherit; font-size: 16px; font-family: inherit; vertical-align: baseline; background-color: transparent; list-style: decimal; background-position: initial initial; background-repeat: initial initial;">Linux：<br style="border: 0px; padding: 0px;"/>
+基本命令、操作、启动、基本服务配置（包括rpm安装文件，各种服务配置等）；会写简单的<span style="color: rgb(255, 64, 255);">shell脚本</span>和awk/sed 脚本命令等。</li>
+<li style="border: 0px; padding: 0px; font-weight: inherit; font-style: inherit; font-size: 16px; font-family: inherit; vertical-align: baseline; background-color: transparent; list-style: decimal; background-position: initial initial; background-repeat: initial initial;">Nginx：<br style="border: 0px; padding: 0px;"/>
+做到能够安装配置nginx+php，知道基本的nginx核心配置选项，知道 server/fastcgi_pass/access_log 等基础配置，目标是能够让nginx+php_fpm顺利工作。</li>
+<li style="border: 0px; padding: 0px; font-weight: inherit; font-style: inherit; font-size: 16px; font-family: inherit; vertical-align: baseline; background-color: transparent; list-style: decimal; background-position: initial initial; background-repeat: initial initial;">MySQL：<br style="border: 0px; padding: 0px;"/>
+会自己搭建mysql，知道基本的mysql配置选项；知道innodb和myisam的区别，知道针对InnoDB和MyISAM两个引擎的不同配置选项；知道基本的两个引擎的差异和选择上面的区别；能够纯手工编译搭建一个MySQL数据库并且配置好编码等正常稳定运行；核心主旨是能够搭建一个可运行的MySQL数据库。</li>
+<li style="border: 0px; padding: 0px; font-weight: inherit; font-style: inherit; font-size: 16px; font-family: inherit; vertical-align: baseline; background-color: transparent; list-style: decimal; background-position: initial initial; background-repeat: initial initial;">PHP：<br style="border: 0px; padding: 0px;"/>
+基本语法数组、字符串、数据库、XML、Socket、GD/ImageMgk图片处理等等；熟悉各种跟MySQL操作链接的api（mysql/mysqli/PDO)，知道各种编码问题的解决；知道常规熟练使用的PHP框架（ThinkPHP、Zendframework、Yii、Yaf等）；了解基本MVC的运行机制和为什么这么做，稍微知道不同的PHP框架之间的区别；能够快速学习一个MVC框架。能够知道开发工程中的文件目录组织，有基本的良好的代码结构和风格，能够完成小系统的开发和中型系统中某个模块的开发工作。</li>
+<li style="border: 0px; padding: 0px; font-weight: inherit; font-style: inherit; font-size: 16px; font-family: inherit; vertical-align: baseline; background-color: transparent; list-style: decimal; background-position: initial initial; background-repeat: initial initial;">前端：（搞定）<br style="border: 0px; padding: 0px;"/>
+如果条件时间允许，可以适当学习下 HTML/CSS/JS 等相关知识，知道什么web标准，div+css的web/wap页面模式，知道HTML5和HTML4的区别；了解一些基本的前端只是和JS框架（jQuery之类的）；了解一些基本的JavaScript编程知识；</li>
+<li style="border: 0px; padding: 0px; font-weight: inherit; font-style: inherit; font-size: 16px; font-family: inherit; vertical-align: baseline; background-color: transparent; list-style: decimal; background-position: initial initial; background-repeat: initial initial;">系统设计：<br style="border: 0px; padding: 0px;"/>
+能够完成小型系统的基本设计，包括简单的数据库设计，能够完成基本的：浏览器 -&gt; Nginx+PHP -&gt; 数据库 架构的设计开发工作；能够支撑每天几十万到数百万流量网站的开发维护工作；</li>
+</ol>
+<div style="border: 0px; padding: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; background-color: transparent; list-style: decimal;">
+<div><span style="font-size: 16px;"><br/></span></div>
+<div><span style="font-size: 16px;"><br/></span></div>
+<div><span style="font-size: 16px;"><br/></span></div>
+<div><br/></div>
+<div>
+<div>
+<div style="padding: 0px; box-sizing: border-box !important; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; -webkit-print-color-adjust: exact; font-family: Helvetica, arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);">
+<div><span style="color: rgb(62, 62, 62);"><span style="color: rgb(146, 144, 0);"><span style="font-size: 24px;">MyISAM</span></span> 在执行查询语句(<code style=" padding: 0px 5px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; -webkit-print-color-adjust: exact; white-space: nowrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px;">SELECT</code>)前,会自动给涉及的所有表加读锁,在执行更新操作 (<code style=" padding: 0px 5px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; -webkit-print-color-adjust: exact; white-space: nowrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px;">UPDATE</code>、<code style=" padding: 0px 5px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; -webkit-print-color-adjust: exact; white-space: nowrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px;">DELETE</code>、<code style=" padding: 0px 5px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; -webkit-print-color-adjust: exact; white-space: nowrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px;">INSERT</code> 等)前，会自动给涉及的表加写锁，这个过程并不需要用户干预，因此，用户一般不需要直接用<code style=" padding: 0px 5px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; -webkit-print-color-adjust: exact; white-space: nowrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px;">LOCK TABLE</code>命令给MyISAM表显式加锁。</span></div>
+</div>
+</div>
+<div>
+<div style="padding: 0px; box-sizing: border-box !important; clear: both; min-height: 1em; font-family: Helvetica, arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; -webkit-print-color-adjust: exact;">
+<div><span style="color: rgb(119, 119, 119);">在用 <code style="padding: 0px 5px; max-width: 100%; box-sizing: border-box !important; -webkit-print-color-adjust: exact; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px;">LOCK TABLES</code> 给表显式加表锁时,必须同时取得所有涉及到表的锁。</span></div>
+</div>
+</div>
+<div>
+<div style="padding: 0px; box-sizing: border-box !important; clear: both; min-height: 1em; font-family: Helvetica, arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; -webkit-print-color-adjust: exact;">
+<div><span style="color: rgb(119, 119, 119);">在执行 <code style="padding: 0px 5px; max-width: 100%; box-sizing: border-box !important; -webkit-print-color-adjust: exact; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px;">LOCK TABLES</code> 后，只能访问显式加锁的这些表，不能访问未加锁的表;</span></div>
+</div>
+</div>
+<div>
+<div style="padding: 0px; box-sizing: border-box !important; clear: both; min-height: 1em; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; -webkit-print-color-adjust: exact;">
+<div><span style="font-family: Helvetica, arial, sans-serif;"><span style="color: rgb(119, 119, 119);">如果加的是读锁，那么只能执行查询操作，而不能执行更新操作。</span></span></div>
+</div>
+</div>
+</div>
+<div>
+<div style="padding: 0px; clear: both; min-height: 1em; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; -webkit-print-color-adjust: exact; box-sizing: border-box !important;">
+<div><span style="color: rgb(119, 119, 119);"><span style="font-family: Helvetica, arial, sans-serif;">在自动加锁的情况下也基本如此，MyISAM 总是一次获得 SQL 语句所需要的全部锁。这也正是 MyISAM 表不会出现死锁(Deadlock Free)的原因。</span></span></div>
+<div>
+<p style=" padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; color: rgb(62, 62, 62); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; -webkit-print-color-adjust: exact; font-family: Helvetica, arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);"><span style="color: rgb(170, 121, 66);">对表test_table增加读锁：</span></p>
+<pre style="padding: 6px 10px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; color: rgb(62, 62, 62); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); -webkit-print-color-adjust: exact; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); font-size: 13px; overflow: auto; border-radius: 3px;">
+<code style=" padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; -webkit-print-color-adjust: exact; border-width: initial; border-style: none; border-color: initial; background-color: transparent; border-radius: 3px;">LOCK TABLES test_table READ
+UNLOCK test_table</code>
+</pre>
+<p style=" padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; color: rgb(62, 62, 62); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; -webkit-print-color-adjust: exact; font-family: Helvetica, arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);"><span style="color: rgb(170, 121, 66);">对表test_table增加写锁</span></p>
+<div style="padding: 6px 10px; box-sizing: border-box !important; color: rgb(62, 62, 62); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); -webkit-print-color-adjust: exact; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); font-size: 13px; overflow: auto; border-radius: 3px;"><code style="padding: 0px; max-width: 100%; box-sizing: border-box !important; -webkit-print-color-adjust: exact; border-width: initial; border-style: none; border-color: initial; background-color: transparent; border-radius: 3px;">LOCK TABLES test_table WRITE</code>
+<div><span style="background-color: transparent;">UNLOCK test_table</span></div>
+<div><span style="color: rgb(255, 38, 0);"><span style="font-family: Helvetica, arial, sans-serif;"><span style="font-size: 14px;"><span style="background-color: transparent;">当使用 LOCK TABLES 时,不仅需要一次锁定用到的所有表,而且,同一个表在 SQL 语句中出现多少次,就要通过与 SQL 语句中相同的别名锁定多少次,否则也会出错!</span></span></span></span></div>
+</div>
+<p style=" padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; color: rgb(62, 62, 62); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; -webkit-print-color-adjust: exact; font-family: Helvetica, arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);">比如如下SQL语句：</p>
+<pre style="padding: 6px 10px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; color: rgb(62, 62, 62); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); -webkit-print-color-adjust: exact; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); font-size: 13px; overflow: auto; border-radius: 3px;">
+<code style=" padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; -webkit-print-color-adjust: exact; border-width: initial; border-style: none; border-color: initial; background-color: transparent; border-radius: 3px;">select a.first_name,b.first_name, from actor a,actor b where a.first_name = b.first_name;</code>
+</pre>
+<p style=" padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; color: rgb(62, 62, 62); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; -webkit-print-color-adjust: exact; font-family: Helvetica, arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);">该Sql语句中，actor表以别名的方式出现了两次，分别是a,b，这时如果要在该Sql执行之前加锁就要使用以下Sql:</p>
+<div style="padding: 6px 10px; box-sizing: border-box !important; color: rgb(62, 62, 62); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); -webkit-print-color-adjust: exact; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); font-size: 13px; overflow: auto; border-radius: 3px;">
+<div><code style="padding: 0px; box-sizing: border-box !important; -webkit-print-color-adjust: exact; border-width: initial; border-style: none; border-color: initial; background-color: transparent; border-radius: 3px;">lock table actor as a read,actor as b read;</code></div>
+</div>
+</div>
+</div>
+</div>
+<div><br/></div>
+<div>
+<div style="padding: 0px; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; -webkit-print-color-adjust: exact; -webkit-font-smoothing: antialiased; cursor: text; background-color: rgb(255, 255, 255);">
+<div><span style="color: rgb(62, 62, 62);"><span style="font-size: 18px;"><span style="font-family: Helvetica, arial, sans-serif;"><b>并发插入</b></span></span></span></div>
+<div><span style="font-family: Helvetica, arial, sans-serif;"><span style="color: rgb(119, 119, 119);">当concurrent_insert设置为0时,不允许并发插入。</span></span></div>
+<div><span style="font-family: Helvetica, arial, sans-serif;"><span style="color: rgb(119, 119, 119);">当concurrent_insert设置为1时,如果MyISAM表中没有空洞(即表的中间没有被删除的 行),MyISAM允许在一个进程读表的同时,另一个进程从表尾插入记录。这也是MySQL 的默认设置。</span></span></div>
+<div><span style="font-family: Helvetica, arial, sans-serif;"><span style="color: rgb(119, 119, 119);">当concurrent_insert设置为2时,无论MyISAM表中有没有空洞,都允许在表尾并发插入记录。</span></span></div>
+<div>
+<div style="padding: 0px; box-sizing: border-box !important; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; color: rgb(62, 62, 62); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; -webkit-print-color-adjust: exact; font-family: Helvetica, arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);">
+<div>可以利用MyISAM存储引擎的并发插入特性,来解决应用中对同一表查询和插入的锁争用。</div>
+</div>
+</div>
+</div>
+</div>
+<div><br/></div>
+<div>
+<div style="padding: 0px; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; -webkit-print-color-adjust: exact; -webkit-font-smoothing: antialiased; cursor: text; background-color: rgb(255, 255, 255);">
+<div><b><span style="font-size: 18px;"><span style="font-family: Helvetica, arial, sans-serif;"><span style="color: rgb(62, 62, 62);">总结</span></span></span></b></div>
+<div><b><span style="font-size: 18px;"><span style="font-family: Helvetica, arial, sans-serif;"><span style="color: rgb(62, 62, 62);"><br/></span></span></span></b></div>
+</div>
+</div>
+<div>
+<div style="padding: 0px; box-sizing: border-box !important; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; -webkit-print-color-adjust: exact; background-color: rgb(255, 255, 255);">
+<div><span style="color: rgb(0, 145, 147);"><span style="font-family: Helvetica, arial, sans-serif;">数据库中的锁从锁定的粒度上分可以分为行级锁、页级锁和表级锁。</span></span></div>
+</div>
+</div>
+<div>
+<div style="padding: 0px; box-sizing: border-box !important; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; -webkit-print-color-adjust: exact; background-color: rgb(255, 255, 255);">
+<div><span style="color: rgb(0, 145, 147);"><span style="font-family: Helvetica, arial, sans-serif;">MySQL的MyISAM引擎支持表级锁 。</span><span style="font-family: Helvetica, arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); float: none;">行级锁(INNODB引擎) 。 </span></span></div>
+</div>
+</div>
+<div>
+<div style="padding: 0px; box-sizing: border-box !important; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; -webkit-print-color-adjust: exact; background-color: rgb(255, 255, 255);">
+<div><span style="color: rgb(0, 145, 147);"><span style="font-family: Helvetica, arial, sans-serif;">表级锁分为两种：共享读锁、互斥写锁。这两种锁都是阻塞锁。</span></span></div>
+</div>
+</div>
+<div>
+<div style="padding: 0px; box-sizing: border-box !important; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; -webkit-print-color-adjust: exact; background-color: rgb(255, 255, 255);">
+<div><span style="color: rgb(0, 145, 147);"><span style="font-family: Helvetica, arial, sans-serif;">可以在读锁上增加读锁，不能在读锁上增加写锁。在写锁上不能增加写锁。</span></span></div>
+</div>
+</div>
+<div>
+<div style="padding: 0px; box-sizing: border-box !important; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; -webkit-print-color-adjust: exact; background-color: rgb(255, 255, 255);">
+<div><span style="color: rgb(0, 145, 147);"><span style="font-family: Helvetica, arial, sans-serif;">默认情况下，MySql在执行查询语句之前会加读锁，在执行更新语句之前会执行写锁。</span></span></div>
+</div>
+</div>
+<div>
+<div style="padding: 0px; box-sizing: border-box !important; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; -webkit-print-color-adjust: exact; font-family: Helvetica, arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);">
+<div><span style="color: rgb(0, 145, 147);">如果想要显示的加锁/解锁的花可以使用<code style=" padding: 0px 5px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; -webkit-print-color-adjust: exact; white-space: nowrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px;">LOCK TABLES</code>和<code style=" padding: 0px 5px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; -webkit-print-color-adjust: exact; white-space: nowrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px;">UNLOCK</code>来进行。</span></div>
+</div>
+</div>
+<div>
+<div style="padding: 0px; box-sizing: border-box !important; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; -webkit-print-color-adjust: exact; font-family: Helvetica, arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);">
+<div><span style="color: rgb(0, 145, 147);">在使用<code style=" padding: 0px 5px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; -webkit-print-color-adjust: exact; white-space: nowrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px;">LOCK TABLES</code>之后，在解锁之前，不能操作未加锁的表。</span></div>
+</div>
+</div>
+<div>
+<div style="padding: 0px; box-sizing: border-box !important; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; -webkit-print-color-adjust: exact; background-color: rgb(255, 255, 255);">
+<div><span style="color: rgb(0, 145, 147);"><span style="font-family: Helvetica, arial, sans-serif;">在加锁时，如果显示的指明是要增加读锁，那么在解锁之前，只能进行读操作，不能执行写操作。</span></span></div>
+</div>
+</div>
+<div>
+<div style="padding: 0px; box-sizing: border-box !important; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; -webkit-print-color-adjust: exact; background-color: rgb(255, 255, 255);">
+<div><span style="color: rgb(0, 145, 147);"><span style="font-family: Helvetica, arial, sans-serif;">如果一次Sql语句要操作的表以别名的方式多次出现，那么就要在加锁时都指明要加锁的表的别名。</span></span></div>
+</div>
+</div>
+<div>
+<div style="padding: 0px; box-sizing: border-box !important; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; -webkit-print-color-adjust: exact; font-family: Helvetica, arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);">
+<div><span style="color: rgb(0, 145, 147);">MyISAM存储引擎有一个系统变量<code style=" padding: 0px 5px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; -webkit-print-color-adjust: exact; white-space: nowrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px;">concurrent_insert</code>,专门用以控制其并发插入的行为,其值分别可以为0、1或2。</span></div>
+</div>
+</div>
+<div>
+<div style="padding: 0px; box-sizing: border-box !important; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; color: rgb(62, 62, 62); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; -webkit-print-color-adjust: exact; font-family: Helvetica, arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);">
+<div><span style="color: rgb(122, 129, 255);"><span style="color: rgb(255, 133, 255);"><span style="color: rgb(255, 138, 216);"><span style="color: rgb(148, 55, 255);"><span style="color: rgb(146, 146, 146);"><span style="color: rgb(79, 143, 0);"><span style="color: rgb(0, 143, 0);"><span style="color: rgb(56, 209, 66);"><span style="color: rgb(115, 250, 121);"><span style="color: rgb(0, 145, 147);">由于读锁和写锁互斥，那么在调度过程中，默认情况下，MySql会本着写锁优先的原则。可以通过<code style=" padding: 0px 5px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; -webkit-print-color-adjust: exact; white-space: nowrap; border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234); background-color: rgb(248, 248, 248); border-radius: 3px;">low-priority-updates</code>来设置。</span></span></span></span></span></span></span></span></span></span></div>
+</div>
+</div>
+<div><br/></div>
+<div><br/></div>
+<div>
+<div style="padding: 0px; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; -webkit-print-color-adjust: exact; -webkit-font-smoothing: antialiased; cursor: text; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(204, 204, 204); background-color: rgb(255, 255, 255);">
+<div><b><span style="font-size: 24px;"><span style="font-family: Helvetica, arial, sans-serif;"><span style="color: rgb(62, 62, 62);">行级锁</span></span></span></b></div>
+</div>
+</div>
+<div>
+<div style="padding: 0px; box-sizing: border-box !important; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; -webkit-print-color-adjust: exact; font-family: Helvetica, arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);">
+<div><span style="color: rgb(62, 62, 62);">行级锁是Mysql中锁定粒度最细的一种锁，表示只针对当前操作的行进行加锁。行级锁能大大减少数据库操作的冲突。其加锁粒度最小，但加锁的开销也最大。行级锁分为<strong style=" padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; -webkit-print-color-adjust: exact;"><a style=" padding: 0px; color: rgb(65, 131, 196); text-decoration: none; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; -webkit-print-color-adjust: exact;"><code style=" padding: 0px 5px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; -webkit-print-color-adjust: exact; white-space: nowrap; border: 1px solid rgb(234, 234, 234); border-radius: 3px; background-color: rgb(248, 248, 248);">共享锁</code></a></strong> 和 <strong style=" padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; -webkit-print-color-adjust: exact;"><a style=" padding: 0px; color: rgb(65, 131, 196); text-decoration: none; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; -webkit-print-color-adjust: exact;"><code style=" padding: 0px 5px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; -webkit-print-color-adjust: exact; white-space: nowrap; border: 1px solid rgb(234, 234, 234); border-radius: 3px; background-color: rgb(248, 248, 248);">排他锁</code></a></strong>。</span></div>
+</div>
+</div>
+<div>
+<div style="padding: 0px; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; -webkit-print-color-adjust: exact; -webkit-font-smoothing: antialiased; cursor: text; background-color: rgb(255, 255, 255);">
+<div><b><span style="font-size: 18px;"><span style="font-family: Helvetica, arial, sans-serif;"><span style="color: rgb(62, 62, 62);">特点</span></span></span></b></div>
+</div>
+</div>
+<div>
+<div style="padding: 0px; box-sizing: border-box !important; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; -webkit-print-color-adjust: exact; background-color: rgb(255, 255, 255);">
+<div><span style="font-family: Helvetica, arial, sans-serif;"><span style="color: rgb(62, 62, 62);">开销大，加锁慢；会出现死锁；锁定粒度最小，发生锁冲突的概率最低，并发度也最高。</span></span></div>
+<div><span style="font-family: Helvetica, arial, sans-serif;"><span style="color: rgb(62, 62, 62);"><br/></span></span></div>
+</div>
+</div>
+<div>
+<div style="padding: 0px; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; -webkit-print-color-adjust: exact; -webkit-font-smoothing: antialiased; cursor: text; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(204, 204, 204); background-color: rgb(255, 255, 255);">
+<div><b><span style="font-size: 24px;"><span style="font-family: Helvetica, arial, sans-serif;"><span style="color: rgb(62, 62, 62);">表级锁</span></span></span></b></div>
+</div>
+</div>
+<div>
+<div style="padding: 0px; box-sizing: border-box !important; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; -webkit-print-color-adjust: exact; font-family: Helvetica, arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);">
+<div><span style="color: rgb(62, 62, 62);">表级锁是MySQL中锁定粒度最大的一种锁，表示对当前操作的整张表加锁，它实现简单，资源消耗较少，被大部分MySQL引擎支持。最常使用的MYISAM与INNODB都支持表级锁定。表级锁定分为<strong style=" padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; -webkit-print-color-adjust: exact;"><code style=" padding: 0px 5px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; -webkit-print-color-adjust: exact; white-space: nowrap; border: 1px solid rgb(234, 234, 234); border-radius: 3px; background-color: rgb(248, 248, 248);">表共享读锁</code>（<a style=" padding: 0px; color: rgb(65, 131, 196); text-decoration: none; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; -webkit-print-color-adjust: exact;">共享锁</a>）</strong>与<strong style=" padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; -webkit-print-color-adjust: exact;"><code style=" padding: 0px 5px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; -webkit-print-color-adjust: exact; white-space: nowrap; border: 1px solid rgb(234, 234, 234); border-radius: 3px; background-color: rgb(248, 248, 248);">表独占写锁</code>（<a style=" padding: 0px; color: rgb(65, 131, 196); text-decoration: none; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; -webkit-print-color-adjust: exact;">排他锁</a>）</strong>。</span></div>
+</div>
+</div>
+<div>
+<div style="padding: 0px; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; -webkit-print-color-adjust: exact; -webkit-font-smoothing: antialiased; cursor: text; background-color: rgb(255, 255, 255);">
+<div><b><span style="font-size: 18px;"><span style="font-family: Helvetica, arial, sans-serif;"><span style="color: rgb(62, 62, 62);">特点</span></span></span></b></div>
+</div>
+</div>
+<div>
+<div style="padding: 0px; box-sizing: border-box !important; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; -webkit-print-color-adjust: exact; background-color: rgb(255, 255, 255);">
+<div><span style="font-family: Helvetica, arial, sans-serif;"><span style="color: rgb(62, 62, 62);">开销小，加锁快；不会出现死锁；锁定粒度大，发出锁冲突的概率最高，并发度最低。</span></span></div>
+<div><span style="font-family: Helvetica, arial, sans-serif;"><span style="color: rgb(62, 62, 62);"><br/></span></span></div>
+</div>
+</div>
+<div>
+<div style="padding: 0px; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; -webkit-print-color-adjust: exact; -webkit-font-smoothing: antialiased; cursor: text; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(204, 204, 204); background-color: rgb(255, 255, 255);">
+<div><b><span style="font-size: 24px;"><span style="font-family: Helvetica, arial, sans-serif;"><span style="color: rgb(62, 62, 62);">页级锁</span></span></span></b></div>
+</div>
+</div>
+<div>
+<div style="padding: 0px; box-sizing: border-box !important; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; -webkit-print-color-adjust: exact; background-color: rgb(255, 255, 255);">
+<div><span style="font-family: Helvetica, arial, sans-serif;"><span style="color: rgb(62, 62, 62);">表级锁是MySQL中锁定粒度介于行级锁和表级锁中间的一种锁.表级锁速度快，但冲突多，行级冲突少，但速度慢。所以取了折衷的页级，一次锁定相邻的一组记录。BDB支持页级锁。</span></span></div>
+</div>
+</div>
+<div>
+<div style="padding: 0px; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; -webkit-print-color-adjust: exact; -webkit-font-smoothing: antialiased; cursor: text; background-color: rgb(255, 255, 255);">
+<div><b><span style="font-size: 18px;"><span style="font-family: Helvetica, arial, sans-serif;"><span style="color: rgb(62, 62, 62);">特点</span></span></span></b></div>
+</div>
+</div>
+<div>
+<div style="padding: 0px; box-sizing: border-box !important; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; -webkit-print-color-adjust: exact; background-color: rgb(255, 255, 255);">
+<div><span style="font-family: Helvetica, arial, sans-serif;"><span style="color: rgb(62, 62, 62);">开销和加锁时间界于表锁和行锁之间；会出现死锁；锁定粒度界于表锁和行锁之间，并发度一般。</span></span></div>
+</div>
+</div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div><br/></div>
+<div>
+<div style="padding: 0px; clear: both; min-height: 1em; white-space: normal; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; -webkit-print-color-adjust: exact; font-size: 14px; background-color: rgb(255, 255, 255); box-sizing: border-box !important; word-wrap: break-word !important;">
+<div><span style="color: rgb(62, 62, 62);"><span style="font-size: 13px;"><br/></span></span></div>
+</div>
+</div>
+</div>
+</div>
+</body></html>
